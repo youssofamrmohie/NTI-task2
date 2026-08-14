@@ -1,6 +1,4 @@
 
-
-/* ---------- RESET & BASE ---------- */
 * {
     margin: 0;
     padding: 0;
@@ -31,7 +29,7 @@ img {
     padding: 0 20px;
 }
 
-/* ---------- UTILITY ---------- */
+
 .text-center {
     text-align: center;
 }
@@ -46,7 +44,7 @@ img {
     margin-top: 20px;
 }
 
-/* ---------- BUTTONS ---------- */
+/* ---------- Buttons ---------- */
 .btn {
     display: inline-block;
     padding: 14px 34px;
@@ -252,7 +250,7 @@ img {
     color: #a5d6a7;
 }
 
-/* ---------- ROW / COLUMN LAYOUT ---------- */
+/* ---------- rows / Columsn ---------- */
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -303,7 +301,7 @@ img {
     background: #e8f5e9;
 }
 
-/* ---------- BAKING GRID ---------- */
+
 .grid-3 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
@@ -343,7 +341,7 @@ img {
     color: #81c784;
 }
 
-/* ---------- CONTACT DETAILS ---------- */
+/* ---------- CONTACt info ---------- */
 .contact-details {
     list-style: none;
     margin: 20px 0 10px;
@@ -578,7 +576,7 @@ img {
 
 .social-icons {
     display: flex;
-    flex-direction: row;  /* Keeps them in a row */
-    justify-content: center;  /* Centers the row */
+    flex-direction: row;  
+    justify-content: center;  
     gap: 10px;
 }
